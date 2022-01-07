@@ -1,0 +1,106 @@
+/* The designs were created to the following widths:
+
+# Layout
+- Mobile: 375px
+- Desktop: 1440px
+
+# Colors
+0a0c1b
+
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+* {
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+}
+
+main {
+    margin: 0 auto;
+    min-width: 375px;
+    max-width: 1440px;
+}
+
+.card {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    margin-bottom: 100px;
+    background-color: hsl(244, 38%, 16%);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card .content {
+    margin: 5rem 5rem 0rem 5rem;
+}
+
+.card .content h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 38px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.card .content p {
+    /* color: hsla(0, 0%, 100%, 0.75); */
+    color: hsl(245, 16%, 71%);
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Lexend Deca', sans-serif; */
+    font-weight: 400;
+    margin-bottom: 50px;
+    line-height: 1.8;
+}
+
+.card .content .row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-transform: uppercase;
+}
+
+.card .content article h3 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.card .content article p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.card .content .statHeadings {
+    color: hsl(277, 64%, 61%)
+}
+
+.image-card img {
+    width: 100%;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.attribution a {
+    color: #ccc;
+    text-decoration: none;
+}
