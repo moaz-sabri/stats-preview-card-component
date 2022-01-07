@@ -1,0 +1,9 @@
+.image-card .desktop {
+    display: block;
+}
+
+.image-card .mobile {
+    display: none;
+}
+
+.image-card {}
